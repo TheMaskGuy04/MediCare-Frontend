@@ -37,7 +37,7 @@ function ServiceCard({ title, icon, description, linkTo }) {
         <p className="text-gray-600 mb-6">{description}</p>
         <Link
           to={linkTo}
-          className="bg-primary text-black font-semibold py-2 px-6 border-4 rounded-full hover:bg-primary-dark transition-colors duration-300"
+          className="bg-primary text-black font-semibold py-2 px-6 border-4 rounded-full bg-[#ff784b] transition-colors duration-300"
         >
           Get Started
         </Link>
