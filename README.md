@@ -1,8 +1,33 @@
-# React + Vite
+# Medicare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Medicare is a comprehensive MERN (MongoDB, Express, React, Node.js) stack application designed to provide various healthcare services, including mental health support, physical fitness planning, and women's health resources.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Mental Health Services**: In development.
+- **Physical Health**:
+  - Personalized diet plans
+  - Customized workout routines
+  - Nutritional guidance
+  - Fitness goal setting and progress tracking
+- **Women's Health**:
+  - Daily exercise routines
+  - PCOD/PCOS prediction
+  - Hormonal health analysis
+  - Reproductive health care information
+
+## Tech Stack
+
+- Frontend: React.js with React Router for navigation
+- Backend: Node.js with Express.js
+- Database: MongoDB
+- Styling: Tailwind CSS
+- Icons: Lucide React and React Icons
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm or yarn
+- MongoDB
