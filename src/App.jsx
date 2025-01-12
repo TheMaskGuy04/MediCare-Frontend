@@ -13,6 +13,7 @@ import PhysicalHealthPage from "./Pages/PhysicalHealthPage.jsx";
 import WorkoutPlanForm from "./Pages/WorkoutPlanForm.jsx";
 import DietPlanForm from "./Pages/DietPlanForm.jsx";
 import WomensHealthPage from "./Pages/WomenHealthPage.jsx";
+import MentalHealthPage from "./Pages/MentalHealthPage.jsx";
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(true);
@@ -77,6 +78,8 @@ export default function App() {
               path="/services"
               element={<ServicesPage isAuthenticated={isAuthenticated} />}
             />
+
+            <Route path="/mental-health" element={<MentalHealthPage />} />
 
             <Route path="/physical-health" element={<PhysicalHealthPage />} />
 

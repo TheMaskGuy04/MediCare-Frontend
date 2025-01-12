@@ -10,18 +10,20 @@ export default function ServicesPage() {
           Our Healthcare Services
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <Section
-            title="Mental Health"
-            icon={<Brain className="w-12 h-12 text-blue-500" />}
-            description="Comprehensive care for your mental well-being"
-            items={[
-              "Depression Treatment",
-              "Anxiety Disorders",
-              "Stress Management",
-              "Cognitive Behavioral Therapy",
-              "Addiction Recovery",
-            ]}
-          />
+          <Link to="/mental-health" className="block">
+            <Section
+              title="Mental Health"
+              icon={<Brain className="w-12 h-12 text-blue-500" />}
+              description="Comprehensive care for your mental well-being"
+              items={[
+                "Depression Treatment",
+                "Anxiety Disorders",
+                "Stress Management",
+                "Cognitive Behavioral Therapy",
+                "Addiction Recovery",
+              ]}
+            />
+          </Link>
           <Link to="/physical-health" className="block">
             <Section
               title="Physical Health"
